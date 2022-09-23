@@ -1,17 +1,20 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
+import DataBindingView from '../views/DataBindingView.vue'
 
 const routes = [
   { path: '/', name: 'home', component: HomeView },
-  { path: '/about', name: 'about', component: AboutView }
+  { path: '/about', name: 'about', component: AboutView },
+  { path: '/databinding', name: 'databinding', component: DataBindingView }
   // {
   //   path: '/about',
   //   name: 'about',
   //   // route level code-splitting
   //   // this generates a separate chunk (about.[hash].js) for this route
   //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+  //   component: () => import(/* webpackChunkName: "about", webpackPrefetch: true */ '../views/AboutView.vue')
+  //   // webpackPrefetch -> v-show 화면 만들어지자마자 캐시에 담아둠.
   // }
 ]
 
