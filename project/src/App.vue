@@ -4,7 +4,12 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/databindingview">databindingview</router-link> |
     <router-link to="/databindinginput">DataBindingInput</router-link> |
-    <router-link to="/databindinghtml">databindinghtml</router-link>
+    <router-link to="/databindinghtml">databindinghtml</router-link> |
+    <router-link to="/databindingselect">databindingselect</router-link> |
+    <router-link to="/databindinglist">databindinglist</router-link> |
+    <router-link to="/databindingattr">databindingattr</router-link> |
+    <router-link to="/databindingstyle">databindingstyle</router-link> |
+    <router-link to="/eventclick">eventclick</router-link> |
   </nav>
   <router-view/>
 </template>

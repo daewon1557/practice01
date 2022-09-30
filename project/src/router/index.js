@@ -3,14 +3,25 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import DataBindingView from '../views/DataBindingView.vue'
 import DataBindingHtml from '../views/DataBindingHtml.vue'
+import DataBindingSelect from '../views/DataBindingSelect.vue'
 import DataBindingInput from '../views/DataBindingInput.vue'
+import DataBindingAttr from '../views/DataBindingAttr.vue'
+import DataBindingList from '../views/DataBindingList.vue'
+import DataBindingStyle from '../views/DataBindingStyle.vue'
+import EventClick from '../views/event/EventClick.vue'
 
 const routes = [
   { path: '/', name: 'home', component: HomeView },
   { path: '/about', name: 'about', component: AboutView },
   { path: '/databindingview', name: 'databindingview', component: DataBindingView },
   { path: '/databindinginput', name: 'databindinginput', component: DataBindingInput },
-  { path: '/databindinghtml', name: 'databindinghtml', component: DataBindingHtml }
+  { path: '/databindingselect', name: 'databindingselect', component: DataBindingSelect },
+  { path: '/databindinghtml', name: 'databindinghtml', component: DataBindingHtml },
+  { path: '/databindingstyle', name: 'databindingstyle', component: DataBindingStyle },
+  { path: '/databindinglist', name: 'databindinglist', component: DataBindingList },
+  { path: '/databindingattr', name: 'databindingattr', component: DataBindingAttr },
+
+  { path: '/eventclick', name: 'eventclick', component: EventClick }
   // {
   //   path: '/about',
   //   name: 'about',
